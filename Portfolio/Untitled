@@ -1,0 +1,4 @@
+body {
+    background-color: rgb(9, 82, 165);
+    margin: 0; /* Quita los márgenes blancos por defecto del navegador */
+}

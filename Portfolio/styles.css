@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.Titulo h1 {
+    color: rgb(0, 0, 0);
+    
+}
+
+.Titulo h1 span{
+    color: rgba(0, 0, 255, 0.788);
+    font-weight: 700;
+    line-height: 2;
+}
+
+.Contenido h2 span {
+    color: rgba(27, 27, 185, 0.89);
+}
+
+
+
+/* .github:hover {
+    color: rgba(27, 27, 185, 0.89);  ASI SE HACE QUE SE RESALTEN LAS COSAS CUANDO
+}                                       PASAS EL MOUSE POR ENCIMA DE ALGO
+*/
+
+/*ETIQUETAS NATIVAS*/
+
+Main{ /*EL MAIN ES TODO */
+    background-color:  rgb(237, 226, 240);
+    width: 100;
+}
+
+body {
+    background-color:rgb(237, 226, 240);
+    margin: 0;  /* Quita los márgenes blancos por defecto del navegador */
+}
+
+Footer{
+    background-color: rgb(237, 226, 240);
+    width: 100;
+
+}
+
