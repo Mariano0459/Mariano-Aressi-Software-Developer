@@ -3,78 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portfolio</title>
-    <hr>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mariano Aressi - Portfolio</title>
     
-  
-
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS & JavaScript -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+
     <!-- HEADER: Encabezado de la página -->
-    <header>
-        <div class="Titulo">
-            <h1>Mi<span>Portfolio</span></h1>
+    <header class="Header">
+        <div class="Contenido-header">
+            <h1 class="Logo">Mi<span>Portfolio</span></h1>
+            
+            <nav class="Nav-botones">
+                <button type="button" class="btn btn-nav" data-target="#Contenido">Inicio</button>
+                <button type="button" class="btn btn-nav" data-target="#Proyectos">Proyectos</button>
+                <button type="button" class="btn btn-nav" data-target="#Skills">Skills</button>
+            </nav>
         </div>
     </header>
 
     <!-- MAIN: Contenido principal -->
     <main>
-        <div class="Contenido">
-            <h2>Hola, soy <span>Mariano Aressi</span></h2>
-        </div>
-        
-        <div id="Descripcion">
-            <h3>Soy desarrollador de software, estoy actualmente estudiando en la universidad ICES mi ultimo año.</h3>
-        </div>
-
-        <!-- Aqui van los proyectos -->
-        <div id="Proyectos">
-            <h4>Mis Proyectos</h4>
-        </div>
-
-        <div id="Proyectos-Lista">
-            <ul>
-                <div class="Proyectos-Lista-Item">
-                    <li>Portfolio Personal</li>
-                </div>
-            </ul>
-        </div>
-        
-        <!-- Aqui van las habilidades -->
-        <div class="Habilidades">
-            <h4>Mis Habilidades</h4>
-            <div class="Habilidades-Lista">
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>C#</li>
-                    <li>SQL</li>
-                </ul>
+        <!-- HERO / INICIO -->
+        <section id="Contenido" class="Hero">
+            <div class="Contenido-intro">
+                <h2>Hola, soy <span>Mariano Aressi</span></h2>
+                <p class="Descripcion">Soy desarrollador de software, actualmente cursando el último año de la carrera en la universidad ICES.</p>
             </div>
-        </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="Proyectos" class="Seccion">
+            <h3 class="Titulo-seccion">Mis Proyectos</h3>
+            <div class="Proyectos-Grid">
+                <!-- Tarjeta de Proyecto 1 -->
+                <article class="Card-proyecto">
+                    <h4>Portfolio Personal</h4>
+                    <p>Sitio web desarrollado para presentar mis habilidades, proyectos de software y vías de contacto.</p>
+                    <div class="Tags-proyecto">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+                
+                <!-- Puedes agregar más tarjetas de proyectos duplicando la estructura de arriba -->
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="Skills" class="Seccion">
+            <h3 class="Titulo-seccion">Skills</h3>
+            <ul class="Habilidades-Lista">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+                <li>SQL</li>
+            </ul>
+        </section>
     </main>
 
     <!-- FOOTER: Pie de página y contactos -->
     <footer>
-        <!-- Aqui van los contactos -->
-        <div id="Sociales">
+        <div id="Sociales" class="Footer-contenido">
             <h4>Mis Redes Sociales</h4>
-        </div>
-        
-        <div id="Sociales-Lista">
-            <ul>
-                <li>+54 9 3493445051</li>
-                <li>marianoaressi@gmail.com</li>
-                <li><a href="https://github.com/Mariano0459" target="_blank"><span class="github">GitHub</span></a></li>
-                <li><a href="https://linkedin.com/in/mariano-aressi-9a2985409/" target="_blank"><span class="linkedin">LinkedIn</span></a></li>
+            <ul class="Sociales-Lista">
+                <li><a href="mailto:marianoaressi@gmail.com">marianoaressi@gmail.com</a></li>
+                <li><a href="https://github.com/Mariano0459" target="_blank">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/mariano-aressi-9a2985409/" target="_blank">LinkedIn</a></li>
             </ul>
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="css/estilos.css"
 </body>
 </html>

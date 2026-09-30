@@ -1,42 +1,230 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-.Titulo h1 {
-    color: rgb(0, 0, 0);
-    
+/* ==========================================
+   RESET Y CONFIGURACIÓN GENERAL
+   ========================================== */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.Titulo h1 span{
-    color: rgba(0, 0, 255, 0.788);
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f172a; /* Fondo oscuro elegante */
+    color: #f8fafc; /* Texto claro */
+}
+
+/* ==========================================
+   HEADER Y NAVEGACIÓN
+   ========================================== */
+.Header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #1e293b;
+    z-index: 1000;
+}
+
+.Contenido-header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    font-size: 1.5rem;
     font-weight: 700;
-    line-height: 2;
 }
 
-.Contenido h2 span {
-    color: rgba(27, 27, 185, 0.89);
+.Logo span {
+    color: #38bdf8; /* Azul cyan destacado */
 }
 
-
-
-/* .github:hover {
-    color: rgba(27, 27, 185, 0.89);  ASI SE HACE QUE SE RESALTEN LAS COSAS CUANDO
-}                                       PASAS EL MOUSE POR ENCIMA DE ALGO
-*/
-
-/*ETIQUETAS NATIVAS*/
-
-Main{ /*EL MAIN ES TODO */
-    background-color:  rgb(237, 226, 240);
-    width: 100;
+.Nav-botones {
+    display: flex;
+    gap: 1rem;
 }
 
-body {
-    background-color:rgb(237, 226, 240);
-    margin: 0;  /* Quita los márgenes blancos por defecto del navegador */
+.btn-nav {
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
-Footer{
-    background-color: rgb(237, 226, 240);
-    width: 100;
-
+.btn-nav:hover {
+    color: #38bdf8;
+    background-color: #1e293b;
 }
 
+/* ==========================================
+   SECCIONES Y CONTENEDORES
+   ========================================== */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.Seccion {
+    padding: 5rem 0;
+    border-bottom: 1px solid #1e293b;
+}
+
+.Titulo-seccion {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #f1f5f9;
+    position: relative;
+}
+
+.Titulo-seccion::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #38bdf8;
+    border-radius: 2px;
+    margin-top: 0.5rem;
+}
+
+/* ==========================================
+   HERO / INICIO
+   ========================================== */
+.Hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.Hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.Hero h2 span {
+    color: #38bdf8;
+}
+
+.Descripcion {
+    font-size: 1.2rem;
+    color: #94a3b8;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* ==========================================
+   TARJETAS DE PROYECTOS
+   ========================================== */
+.Proyectos-Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.Card-proyecto {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.Card-proyecto:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+}
+
+.Card-proyecto h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.Card-proyecto p {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.Tags-proyecto {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.Tags-proyecto span {
+    background-color: #0f172a;
+    color: #38bdf8;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+}
+
+/* ==========================================
+   SKILLS / HABILIDADES
+   ========================================== */
+.Habilidades-Lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+}
+
+.Habilidades-Lista li {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.Habilidades-Lista li:hover {
+    border-color: #38bdf8;
+    color: #38bdf8;
+    transform: scale(1.05);
+}
+
+/* ==========================================
+   FOOTER
+   ========================================== */
+footer {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #0b1120;
+}
+
+.Footer-contenido h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.Sociales-Lista {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.Sociales-Lista a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.Sociales-Lista a:hover {
+    color: #38bdf8;
+}
