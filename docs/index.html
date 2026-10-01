@@ -13,8 +13,23 @@
     <!-- CONEXIONES -->
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+
+    <meta name="description" content="Portfolio de Mariano Aressi, desarrollador de software">
+    <meta property="og:title" content="Mariano Aressi - Portfolio">
+    <meta property="og:image" content="preview.png">
+    
 </head>
 <body>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mariano Aressi - Portfolio</title>
+        <meta name="description" content="Portfolio de Mariano Aressi, desarrollador de software">
+        <meta property="og:title" content="Mariano Aressi - Portfolio">
+        <meta property="og:image" content="preview.png">
+        ...
+    </head>
 
     <!-- HEADER -->
     <header class="Header">
@@ -35,15 +50,27 @@
         <section id="Contenido" class="Hero">
             <div class="Contenido-intro">
                 <h2>Hola, soy <span>Mariano Aressi</span></h2>
+                <p class="Typing">Soy <span id="typing-text"></span><span class="cursor" aria-hidden="true"></span></p>
                 <p class="Descripcion">Soy desarrollador de software, actualmente cursando el último año de la carrera en la universidad ICES.</p>
             </div>
+        </section>
+
+        <section id="Sobre-mi" class="Seccion">
+            <h3 class="Titulo-seccion">Sobre mí</h3>
+            <p class="Descripcion">
+                Estudio Desarrollo de Software en ICES y estoy en el último año. Me interesa el desarrollo  y 
+                construir aplicaciones que resuelvan problemas reales. Busco mi primera experiencia profesional 
+                para seguir aprendiendo en un equipo.
+            </p>
         </section>
 
         <!-- PROYECTOS -->
         <section id="Proyectos" class="Seccion">
             <h3 class="Titulo-seccion">Mis Proyectos</h3>
             <div class="Proyectos-Grid">
+
                 <!-- Tarjeta de Proyecto 1 -->
+                 
                 <article class="Card-proyecto">
                     <h4>Portfolio Personal</h4>
                     <p>Sitio web desarrollado para presentar mis habilidades, proyectos de software y vías de contacto.</p>
@@ -52,6 +79,31 @@
                         <span>CSS</span>
                         <span>JavaScript</span>
                     </div>
+                </article>
+
+                <article class="Card-proyecto">
+                    <article class="Card-proyecto">
+                        <h4>BarberManager <small>· Sistema de gestión para barberías</small></h4>
+                        <p>
+                            Aplicación web fullstack para administrar una barbería: [turnos, clientes, servicios, etc.].
+                            El backend está hecho con ASP.NET Core y Entity Framework Core sobre SQL Server,
+                            y el frontend con HTML, CSS y JavaScript.
+                        </p>
+                        <div class="Tags-proyecto">
+                            <span>C#</span>
+                            <span>ASP.NET Core</span>
+                            <span>Entity Framework</span>
+                            <span>SQL Server</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Git</span>
+                        </div>
+                    <div class="Links-proyecto">
+                        <a href="https://github.com/PracticasProfesionalizantes-II-2026/Grupo-N-3---BarberManager" target="_blank" rel="noopener noreferrer">Proyecto</a>
+                    </div>
+                    </article>
+                    
                 </article>
                 
                 <!-- Puedes agregar más tarjetas de proyectos duplicando la estructura de arriba -->
@@ -62,11 +114,11 @@
         <section id="Skills" class="Seccion">
             <h3 class="Titulo-seccion">Skills</h3>
             <ul class="Habilidades-Lista">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
+                <li>HTML / CSS / JavaScript</li>
                 <li>C#</li>
-                <li>SQL</li>
+                <li>.NET</li>
+                <li>SQL Server</li>
+                <li>Github</li>
             </ul>
         </section>
     </main>
