@@ -27,7 +27,7 @@
 
 ## 🚀 Proyecto destacado
 
-**[BarberManager](https://github.com/Mariano0459/NOMBRE-DEL-REPO)**: sistema de gestión para barberías, fullstack con ASP.NET Core, Entity Framework Core, SQL Server, HTML, CSS y JavaScript.
+**[BarberManager][https://github.com/Mariano0459/NOMBRE-DEL-REPO)](https://github.com/PracticasProfesionalizantes-II-2026/Grupo-N-3---BarberManager)**: sistema de gestión para barberías, fullstack con ASP.NET Core, Entity Framework Core, SQL Server, HTML, CSS y JavaScript.
 
 ## 📊 Estadísticas
 
