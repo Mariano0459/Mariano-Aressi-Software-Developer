@@ -24,7 +24,6 @@
   <img src="https://skillicons.dev/icons?i=cs,dotnet,html,css,js,git,github,visualstudio,vscode" />
 </p>
 
-*(SQL Server no siempre está en skillicons; si querés, sumalo con un badge de shields.io.)*
 
 ## 🚀 Proyecto destacado
 
