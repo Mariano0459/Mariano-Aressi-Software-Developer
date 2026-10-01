@@ -1,11 +1,11 @@
-<h1 align="center">Hola, soy Mariano 👋</h1>
+<h1 align="center">Hola, soy Mariano</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Desarrollador+de+software;Estudiante+en+ICES;Backend+con+C%23+y+.NET" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="https://TU-PORTFOLIO.com"><img src="https://img.shields.io/badge/Portfolio-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="[https://TU-PORTFOLIO.com](https://mariano0459.github.io/Mariano-Aressi-Software-Developer/)"><img src="https://img.shields.io/badge/Portfolio-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://linkedin.com/in/mariano-aressi-9a2985409/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:marianoaressi@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
