@@ -5,8 +5,9 @@
 </p>
 
 <p align="center">
- <a href="https://mariano0459.github.io/Mariano-Aressi-Software-Developer/" target="_blank">
+ <a href="https://mariano0459.github.io/Mariano-Aressi-Software-Developer/">
   <img src="URL_DE_TU_IMAGEN_AQUI" alt="Mi Portfolio" />
+</a>
 </a><img src="https://img.shields.io/badge/Portfolio-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://linkedin.com/in/mariano-aressi-9a2985409/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailtomarianoaressi@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
