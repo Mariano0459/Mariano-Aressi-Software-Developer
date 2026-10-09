@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const frases = [
         'desarrollador de software.',
         'estudiante de ICES.',
-        'apasionado por el backend.',
         'un eterno curioso.'
     ];
 
